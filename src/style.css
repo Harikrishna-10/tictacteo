@@ -1,0 +1,48 @@
+.icon1{
+    color: blue;
+    font-size: 30px;
+}
+.icon2{
+   color: red;
+   font-size: 30px;
+}
+body{
+   background-color: lightgreen;
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 12px;
+   margin-top: 80px ;
+   width: 500px;
+   margin-left: 50px;
+}
+.box{
+   width: auto;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 20px;
+  
+   
+}
+.card{
+   width: auto;
+}
+.label{
+   color:black;
+   margin-left: 40px;
+   text-align: center;
+}
+.msg{
+   text-align: center;
+}
+.btn{
+   margin-left: 10px;
+   background-color: lightblue
+}
+.button{
+   margin-top: 20px;
+   background-color: gray;
+}
